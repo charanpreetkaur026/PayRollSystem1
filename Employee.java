@@ -38,7 +38,7 @@ public abstract class Employee implements IPrintable {
     }
 
     public int calcBirthYear(int yearofBirth) {
-        //yearofBirth=getAge();
+        //yearofBirth=getAge();gvhbhgyvhubgcfgbgg
         LocalDate end =  LocalDate.now();
         int age=Integer.valueOf(end.toString().substring(0, 4))  ;
         age=age-yearofBirth-1;
